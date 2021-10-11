@@ -1,0 +1,442 @@
+
+
+
+            /*------- HEADER -------*/
+header{
+  
+.nav0{
+    display: none;
+}
+/*           
+body>header{
+.container0{
+    display: none;
+}
+.container1{
+    display: block;
+    width: $basicWidth;
+    margin: 0 auto;
+} // end container1
+.head-A{
+    border-bottom:  1px solid lightgrey;
+    font-size: $smallFont - 2px;
+    align-content: center;
+    height: 35px;
+}
+#navA{
+    ul li {
+        list-style: none;
+        display: inline-block;
+        text-transform: $CLetter;
+    } // end of li
+    .nav-left , .nav-left ul li {
+        float: left;
+    }
+    .nav-right ul li {
+        float: right;
+    }
+    ul {
+        padding: 0%;
+    }
+} // end navA
+#myArea{
+    font-size: $smallFont - 4px;
+    border-right:  1px solid lightgrey;
+    margin-left: 0px;
+}
+#button{
+    font-weight:600;
+    text-transform: $CLetter;
+    font-size:  8px;
+    margin: 5px;
+}
+.UKs{
+    width: 12px;
+    align-content: center;
+    justify-self: center;
+}// end flag UK in header
+
+.head-B{
+    text-transform: $CLetter;
+    font-size: $smallFont - 2px;
+    padding: 1rem $gutter;
+    font-weight: bold; 
+    align-content: center;
+    justify-content: center;
+}
+
+    #navB > ul > li {
+        margin-left: 25px;
+    }
+     ul a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 0 2px;
+        }         
+
+.logo {
+    width: 70px;
+    float: left;
+} // end logo */
+
+ } // end HEADER      
+
+
+
+
+            /*------- MAIN -------*/
+/*------------ step 0 ------------*/
+
+.main0{
+    .img-back{
+    width: 650px;
+    margin-top: 50px ;
+    display: block;
+    z-index: 999;
+}
+
+.choose{
+    font-size: $largeFont+3px ;
+    text-shadow: 0.5px 0.5px white;
+    margin-top: -230px;
+}
+#boldCard{
+    font-weight: 600;
+    text-shadow: 0.5px 0.5px white;
+}
+.line{
+   font-size: $largeFont;
+   font-weight: 300; 
+   text-align: center;
+}
+figure{
+    width: 100%;
+}
+figure.card{
+    width: 90%;
+}
+.card3{
+    margin-top: 8px;
+}
+.text-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 750px;
+    margin: auto;
+    h3 {
+        text-transform: $CLetter;
+        text-align: left;
+    }
+    ul{
+        list-style:none;
+        font-size: $smallFont+3px;
+        padding: 0%;
+    }
+    .boxcard{
+        margin: 0 auto;
+
+    }
+}
+.note{
+    font-size: $smallFont+3px;
+    text-align: center;
+    grid-column: span 3;
+    margin-top: 20px;
+}
+
+}  // end MAIN 
+/*------------ step 1 ------------*/
+main{
+    .nav1{
+        display: none;
+    }
+    .nav1desk{
+        display: block;
+        ul{
+            background: linear-gradient(-45deg, lightgray 0, lightgray 33%, lightgray 33%, lightgray 66%, #f2bf2d 66%, #f2bf2d 100%);
+            display: flex ;
+            justify-content: space-around;
+            width: 100%;    
+        }
+        a{
+            color: rgb(99, 98, 98);
+            font-size: 12px;
+            text-align: center;
+        }
+        .white{
+            color: white;
+        }
+    }
+    .img-form{
+        max-width: 800px;
+        margin: 30px auto
+    }
+
+    .line{
+        // text-align: left;
+        margin-top: 0px;
+    }
+    .PD{
+        font-size: 30px;
+    }
+
+    
+}
+/*------------ step 2 ------------*/
+.main2{
+    .nav2{
+        display: none;
+    }
+    .nav2desk{
+        display: block;
+        ul{
+            background: linear-gradient(-45deg, lightgray 0, lightgray 33%, #f2bf2d 33%, #f2bf2d 66%, #69a0ce 66%, #69a0ce 100%);
+            display: flex ;
+            justify-content: space-around;
+            width: 100%;
+        }
+        a{
+            color: rgb(99, 98, 98);
+            font-size: 12px;
+            text-align: center;
+        }
+        .circle{
+            background-color: #5fa2d2;
+            color: white;
+            border-radius: 50%;
+            padding: 5px 6px;
+            font-size: 10px;
+        }
+        .white{
+            color: white;
+        }
+    }
+    .img-form{
+        max-width: 800px;
+    }
+    .PD{
+        font-size: 30px;
+    }
+    .up{
+        margin-left: 90%;
+    }
+
+
+
+} //end main2
+/*------------ step 3 ------------*/
+.main3{
+    .nav3{
+        display: none;
+    }
+    .nav3desk{
+        display: block;
+        ul{
+            background: linear-gradient(-45deg, #f2bf2d 0, #f2bf2d 33%, #89b9e2 33%, #89b9e2 66%, #69a0ce 66%, #69a0ce 100%);
+            display: flex ;
+            justify-content: space-around;
+            width: 100%;
+        }
+        a{
+            color: white;
+            font-size: 12px;
+            text-align: center;
+        }
+        .circle{
+            background-color: #5fa2d2;
+            border-radius: 50%;
+            padding: 5px 6px;
+            font-size: 10px;
+        }
+    }
+    .gridall{
+        max-width: 700px;
+        margin: 20px auto;
+    }
+    .leftside{
+        margin-left: 0px;
+    }
+    .envelope{
+        height: 150px;
+        width: 85%;
+    }
+    .platinumrot2{
+        margin: -24px 85px;
+        width: 60%;
+    }
+    .platinumrot{
+        margin: -26px 67px;
+        width: 60%;
+    } 
+    .one, .orangecheck{
+        font-size: 17px;
+        margin-left: 100px;
+        margin-top: -45px;
+    }
+    .rightbox{
+        #T{
+            font-size: 25px;
+        }
+        #pm{
+            font-size: 9px;
+            line-height: 10px;
+        }
+        #M{
+            font-size: 6px;
+        }
+    }
+    .presondt{
+        margin: 33px 75px;
+        margin-left: 20px;        
+        #SmFont{
+            font-size: 12px;
+        }
+    }
+
+    .graybox{
+        margin-bottom: 25px;
+        width: 100%;
+        margin-top: -45px;
+        .orangecheck{
+            margin-left: 300px;
+            margin-top: -20px;
+            font-size: 20px;
+        }
+        .cart{
+            font-size: 10px;
+            margin-top: 110px;
+            margin-left: 3px;
+        }
+        .blue1, .blue2, .blue3{
+            font-size: 11px;
+        }
+        .blue2{
+            font-size: 10px;
+            #trash{
+                font-size: 8px;
+            }
+        }
+        .blue3{
+            margin-top: -4px;
+        }
+        .inp{
+            margin-top:-5px;
+            margin-left: 5px;
+        }
+
+        input[type=text]{
+            font-size: 8px;
+            height: 18px;
+            width: 95%;
+            }
+        
+        .coupon{
+            align-items: flex-start;
+            flex-direction: column; 
+            font-size: 12px;
+            }
+        #opt{
+            font-size: 9px;
+            margin: 0%;
+        } a{
+            font-size: 7px;
+        }
+        .couponbox{
+            display: grid;
+            justify-content: start;
+            grid-template-columns: 0fr 1fr 0fr;
+            align-items: start;
+        }
+}
+
+    .paymentboxes{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    .PD{
+        font-size: 26px;
+    }
+    .method, .method2{
+        .cardimg, .cardimg2, .cardimg3{
+            width: 50%;
+        }
+        .cardimg2{
+            margin: 18px auto;
+        }
+        .cardimg3{
+            margin: 24px auto;
+        }
+        a{
+            font-size: 11px;
+            padding: 6px 6px;
+        }
+        .imgssl{
+            width: 20px;
+        }
+
+        .ssl100{
+            font-size: 6px;
+        }
+        .ssl100white{
+            display: none;
+        }
+
+    }
+    .spo{
+        font-size: 8px;
+    }
+    .imgsll{
+        width: 40%;
+        margin-left: -15px;
+        }
+}
+
+
+
+
+            /*------- FOOTER -------*/
+footer{
+    .sub{
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        font-size: 15px;
+        .lionsub{
+            float: right;
+            margin-right: -82px;
+        }
+    }
+    .xphone{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .phonegirl2{
+            display: none;
+        }
+        .phonegirl2{
+            display: block;
+            width: 50%;
+        }
+        .textamex{
+            font-size: 20px;
+            text-align: left;
+        }
+        .textphone{
+            font-size: 13px;
+            text-align: left;
+            margin-top: 3px;
+        }
+
+
+    }
+}  // end FOOTER
+
+/*
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }*/
+  
